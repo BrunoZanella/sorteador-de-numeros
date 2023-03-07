@@ -1,0 +1,87 @@
+table {
+	margin: 0 auto;
+	border-collapse: collapse;
+}
+
+td {
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	font-size: 20px;
+	border: 1px solid black;
+	cursor: pointer;
+}
+
+td.clicked {
+	background-color: red;
+	color: white;
+}
+
+/* Flexbox layout */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Estilo do formulário */
+.form {
+  margin-right: 50px;
+}
+
+.form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.form input[type=text] {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  background-color: #f1f1f1;
+  margin-bottom: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #45a049;
+}
+
+/* Estilo da matriz */
+.matriz {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.celula {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #ccc;
+  margin: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.celula.selecionado {
+  background-color: #4CAF50;
+  color: white;
+}
