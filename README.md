@@ -1,5 +1,4 @@
-# proposta
-SISTEMA DE PROPOSTA EM DJANGO 3
+SISTEMA DE sorteio EM DJANGO 
 
 1 - clone o repositório
 
@@ -15,5 +14,3 @@ SISTEMA DE PROPOSTA EM DJANGO 3
 6 - acesse o site
 	localhost:8000/admin
 
-
-Obrigado a todos espero que goste!!
